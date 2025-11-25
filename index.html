@@ -1,77 +1,107 @@
 <!DOCType html>
+
 <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
     <div class="navbar">
-        <!-- <img src="./resources/images/portfolio_logo.png"> -->
         <a href="#about" class="nav-items">HOME</a>
         <a href="#experience" class="nav-items">WORK EXPERIENCE</a>
         <a href="#projects" class="nav-items">PROJECTS</a>
-        <a href="#education" class="nav-items">EDUCATION</a>
+        <!-- <a href="#education" class="nav-items">EDUCATION</a> -->
         <a href="#certification" class="nav-items">CERTIFICATION</a>
-        <a href="#awards" class="nav-items">AWARDS</a>
+        <a href="#achievements" class="nav-items">ACHEIVEMENTS</a>
         <button class="cv-btn">Download CV</button>
     </div>
-    <section  id ="about" class="about">
+    <section id="about" class="outer-container">
         <div class="intro">
-            <p class="first-line">Hello, I'm</p>
-            <p class="second-line">Vaishnavi Takawane.</p>
-            <p class="third-line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis pariatur unde, error aperiam hic cupiditate quae facilis minima consequuntur illo architecto delectus, fuga, perferendis nulla inventore! Quasi, vel? Magnam, distinctio?</p>
+            <p class="intro-text">Hello, I'm</p>
+            <p class="intro-name">Vaishnavi Takawane.</p>
+            <p class="intro-text">Web Developer</p>
+            <p class="intro-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis pariatur unde,
+                error aperiam hic cupiditate quae facilis minima consequuntur illo architecto delectus, fuga,
+                perferendis nulla inventore! Quasi, vel? Magnam, distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis pariatur unde,
+                error aperiam hic cupiditate quae facilis minima consequuntur illo architecto delectus, fuga,
+                perferendis nulla inventore! Quasi, vel? Magnam, distinctio?</p>
             <div class="social-media">
-                <img src="./resources/images/linkedin-logo.png" style="height:80px; width:80px"/>
+                <img src="./resources/images/linkedin-logo.png" style="height:80px; width:80px" />
+                <img src="./resources/images/github-logo.png" style="height:80px; width:80px" />
             </div>
         </div>
         <div class="profile-img">
-            <img src="./resources/images/profile-img.png" style="height: 500px;width: 500px;"/>
+            <img src="./resources/images/profile-img.png" style="height: 500px;width: 500px;" /> 
         </div>
     </section>
-    <section id="experience" class="card1">
+    <section id="experience" class="container1">
         <div class="title1">Work Experience</div>
         <div class="cards-container">
-            <div class="card-info1">
-                <img src="./resources/images/hsbc-logo.png" style="height:80px; width:80px;margin-top:20px">
+            <div class="cards-innercontainer1">
+                <div class="card-img">
+                    <img src="./resources/images/hsbc-logo.png" style="height:80px; width:80px;margin-top:20px">
+                </div>
+                <div class="card-content">
+                    HSBC Technology India
+                    <ul class="card-content-items">
+                        <li>Working as AEM/RW developer</li>
+                        <li>Unit Testing, Security </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
-    <section id="projects" class="card2">
+    
+    <section id="projects" class="container2">
         <div class="title2">Projects</div>
-            <div class="cards-container">
-            <div class="card-info2">
+        <div class="cards-container">
+            <div class="cards-innercontainer2">
+                <div class="card-content">
+                    AI Log Analyzer
+                    <ul class="card-content-items">
+                        <li>analyses logs from splunk and appDynamics</li>
+                        <li>Convert plain eng into queries</li>
+                    </ul>
+                </div>
             </div>
-            <div class="card-info2">
+            <div class="cards-innercontainer2">
+                <div class="card-content">
+                    AI PR Reviewer
+                    <ul class="card-content-items">
+                        <li>analyses logs from splunk and appDynamics</li>
+                        <li>Convert plain eng into queries</li>
+                    </ul>
+                </div>
             </div>
-            <div class="card-info2">
+            <div class="cards-innercontainer2">
+                <div class="card-content">
+                    Auto Guided Vehicle
+                    <ul class="card-content-items">
+                        <li>analyses logs from splunk and appDynamics</li>
+                        <li>Convert plain eng into queries</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
-    <section id="education" class="card1">
-        <div class="title1">Education</div>
-            <div class="cards-container">
-            <div class="card-info1">
-            </div>
-            <div class="card-info1">
-            </div>
+    <section id="certification" class="container1">
+        <div class="title1">Certification</div>
+        <div class="cards-container">
+            <ol class="cert-content">
+                <li><b>PCAP™ – Certified Associate Python Programmer</b> <a href=""><u>Certificate</u></a></li> 
+                <p> PCAP™ – Certified Associate Python Programmercertification is a professional credential that
+                    measures your ability to accomplish coding tasks related to the basics of programming in the Python
+                    language and the fundamental notions and techniques used in object-oriented programming.</p>
+                </ol>
         </div>
     </section>
-    <section id="certification" class="card2">
-        <div class="title2">Certification</div>
-            <div class="cards-container">
-            <div class="card-info2">
-            </div>
-        </div>
-    </section>
-    <section id="awards" class="card1">
-        <div class="title1">Awards</div>
-            <div class="cards-container">
-            <div class="card-info1">
-            </div>
-            <div class="card-info1">
-            </div>
-            <div class="card-info1">
-            </div>
-        </div>
+    <section id="achievements" class="container2">
+        <div class="title2">Acheivements</div>
+            <ul class="card-content-items">
+                <li>Pat On The Back Award - Quarter 2, 2025</li>
+                <li>Star Performer Award - Quarter 2, 2024 </li>
+                <li>Circle Of Excellence Award  - Quarted 1, 2024</li>
+            </ul>
     </section>
 </body>
 </html>
